@@ -1,0 +1,26 @@
+{
+  "name": "simple_http_hw_sarnese",
+  "version": "1.0.0",
+  "description": "for week 1 hw",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajs2877/Simple-HTTP-Assignment-Start.git"
+  },
+  "author": "alex sarnese",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajs2877/Simple-HTTP-Assignment-Start/issues"
+  },
+  "homepage": "https://github.com/ajs2877/Simple-HTTP-Assignment-Start#readme",
+  "devDependencies": {
+    "eslint": "^7.7.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0"
+  }
+}
