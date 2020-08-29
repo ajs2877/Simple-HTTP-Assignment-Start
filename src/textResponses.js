@@ -5,12 +5,12 @@ const getTimeString = () => {
     const dateString = `${d.getHours()}:${d.getMinutes()}:${d.getSeconds()}`;
     return dateString;
 };
-const getTime = () => {
+const getTime = (request, response) => {
     response.writeHead(200, { 'Content-Type': 'text/plain' });
     response.write(getTimeString());
     response.end();
 };
-const getHello = () => {
+const getHello = (request, response) => {
     response.writeHead(200, { 'Content-Type': 'text/plain' });
     response.write(hello);
     response.end();
